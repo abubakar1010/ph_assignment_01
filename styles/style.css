@@ -23,7 +23,7 @@
 header {
   max-width: 1350px;
   height: 600px;
-  margin: 50px auto 120px;
+  margin: 50px auto 160px;
   background-image: url("../assets/banner-image.png");
   background-size: cover;
   border-radius: 16px;
@@ -51,10 +51,48 @@ padding: 40px 190px 170px;
 .banner-section{
     max-width: 1350px;
   height: 600px;
-  background-color: #00000053;;
+  background-color: #00000053;
+  border-radius: 16px;
   
 }
 
 /* complete header section styles */
 
 /* here is main section styles */
+
+.discount-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.discount-amount{
+    color: var(--primary-red-color);
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-weight: 700;
+}
+
+.discount-intro{
+    color: var(--primary-red-color);
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.discount-heading{
+    color: var(--primary-black-color);
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+margin-top: 10px;
+}
+.discount-section-image{
+    max-width: 600px;
+    margin-bottom: 120px;
+}
+
+/* complete discount section styles */

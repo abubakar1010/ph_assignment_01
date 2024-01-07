@@ -30,69 +30,128 @@ header {
 }
 
 .banner-title {
-    color: var(--primary-white-color);
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-weight: 400;
-    padding-top: 160px;
+  color: var(--primary-white-color);
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 160px;
 }
 
-.banner-heading{
-    color: var(--primary-white-color);
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-line-height: 95px; 
-padding: 40px 190px 170px;
+.banner-heading {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding: 40px 190px 170px;
 }
 
-.banner-section{
-    max-width: 1350px;
+.banner-section {
+  max-width: 1350px;
   height: 600px;
-  background-color: #00000053;
+  background-color: #00000099;
   border-radius: 16px;
-  
 }
 
 /* complete header section styles */
 
 /* here is main section styles */
 
-.discount-section-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.discount-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
-.discount-amount{
-    color: var(--primary-red-color);
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-weight: 700;
+.discount-amount {
+  color: var(--primary-red-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
 }
 
-.discount-intro{
-    color: var(--primary-red-color);
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+.discount-intro {
+  color: var(--primary-red-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
-.discount-heading{
-    color: var(--primary-black-color);
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-margin-top: 10px;
+.discount-heading {
+  color: var(--primary-black-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
 }
-.discount-section-image{
-    max-width: 600px;
-    margin-bottom: 120px;
+.discount-section-image {
+  max-width: 600px;
+  margin-bottom: 120px;
 }
 
 /* complete discount section styles */
+
+/* here is welcome section */
+
+.welcome-section {
+  max-width: 1350px;
+  height: 600px;
+  background-image: url("../assets/vectorrr.png");
+  margin: 120px auto;
+  background-size: cover;
+  border-radius: 16px;
+}
+.gradient {
+  max-width: 1350px;
+  height: 600px;
+  margin: 120px auto;
+  background: linear-gradient(to left, #ede1e130, #000000f7);
+  border-radius: 16px;
+}
+
+.welcome-section-intro {
+  color: var(--primary-white-color);
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; 
+  letter-spacing: 7.04px;
+  padding: 126px 460px 0px 126px;
+}
+
+.welcome-section-description{
+    color: var(--secondary-white-color);
+    font-family: "Inter", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+padding: 24px 460px 0px 126px;
+}
+.welcome-section-button{
+    color: var(--primary-white-color);
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+border: 0;
+background: none;
+padding: 50px 400px 0px 126px;
+}
+
+.welcome-section-image{
+    position: relative;
+    width: 280px;
+    bottom: 275px;
+    left: 275px;
+}
+
+/* finished welcome section styles */

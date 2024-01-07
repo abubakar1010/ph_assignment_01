@@ -24,7 +24,7 @@ header {
   max-width: 1350px;
   height: 600px;
   margin: 50px auto 160px;
-  background-image: url("../assets/banner-image.png");
+  background-image: url('../assets/banner-image.png');
   background-size: cover;
   border-radius: 16px;
 }
@@ -101,7 +101,7 @@ header {
 .welcome-section {
   max-width: 1350px;
   height: 600px;
-  background-image: url('../assets/vectorrr.png');
+  background-image: url('../assets/vector.png');
   margin: 120px auto;
   background-size: cover;
   border-radius: 16px;

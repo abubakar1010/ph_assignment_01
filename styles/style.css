@@ -18,7 +18,7 @@
 
 /* here is common shared styles */
 
-/* here is header sections styles !*/
+/* here is header section!*/
 
 header {
   max-width: 1350px;
@@ -29,7 +29,7 @@ header {
   border-radius: 16px;
 }
 
-/* here is banner section styles */
+/* here is banner section */
 
 .banner-title {
   color: var(--primary-white-color);
@@ -59,11 +59,15 @@ header {
 
 /* finished banner section */
 
-/* complete header section styles! */
 
-/* here is main section styles! */
+/* finished header section */
 
-/* here is discount section styles */
+
+/* here is main section! */
+
+
+
+/* here is discount section */
 
 .discount-section-container {
   display: flex;
@@ -100,7 +104,7 @@ header {
   margin-bottom: 120px;
 }
 
-/* complete discount section styles */
+/* completed discount section */
 
 /* here is welcome section */
 
@@ -160,10 +164,9 @@ header {
   left: 345px;
 }
 
-/* finished welcome section styles */
+/* finished welcome section */
 
-/* here is place info section style */
-
+/* here is place info section */
 
 .place-container {
   max-width: 1300px;
@@ -179,195 +182,191 @@ header {
 
 .place-info {
   color: #070211;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
-  /* text-align: center; */
 }
 
 .place-title {
   color: var(--primary-red-color);
 }
 
-.place-info-button{
+.place-info-button {
   color: var(--primary-white-color);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-text-transform: uppercase;
-padding: 16px 32px;
-border: none;
-background-color: var(--primary-red-color);
-border-radius: 8px;
-margin-top: 48px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border: none;
+  background-color: var(--primary-red-color);
+  border-radius: 8px;
+  margin-top: 48px;
 }
 
 /* finished place info section */
 
-/* here is offer section styles */
-
-.best-offer-container{
+/* here is offer section */
+.best-offer-container {
   display: flex;
   align-items: center;
   /* gap: 70px; */
   margin: 0px 140px 120px;
 }
-.offer-intro{
+.offer-intro {
   color: var(--primary-red-color);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.offer-title{
+.offer-title {
   color: var(--primary-black-color);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin-bottom: 25px;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 25px;
 }
-.offer-description{
+.offer-description {
   color: var(--secondary-black-color);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
-margin-right: 85px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-right: 85px;
 }
-.offer-image{
+.offer-image {
   width: 250px;
-  margin-right: 220px;
-  border: 12px solid var(--primary-red-color);
+  border: 8px solid var(--primary-red-color);
   border-radius: 100%;
   padding: 20px;
+  position: relative;
+  right: 40px;
 }
 
-.date{
+.date {
   color: var(--primary-red-color);
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
 }
 
-.time-description{
+.time-description {
   color: var(--secondary-black-color);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
-
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 15px;
 }
 
-.time-image{
+.time-image {
   margin-top: 30px;
 }
 
-.offer-time-container{
+.offer-time-container {
   position: relative;
-  right: 65px;
   margin-top: 45px;
+  top: 40px;
+  left: 40px;
 }
 
-/* finished offer section  */
+/* finished offer section */
 
-/* here is holiday sale section styles */
+/* here is holiday sale section */
 
-.holiday-container{
+.holiday-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.holiday-section-intro{
+.holiday-section-intro {
   color: var(--primary-black-color);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.holiday-section-title{
+.holiday-section-title {
   color: var(--primary-black-color);
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
 }
 
-.uncommon-title{
+.uncommon-title {
   color: var(--primary-red-color);
 }
 
-.holiday-section-description{
+.holiday-section-description {
   color: var(--secondary-black-color);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px; /* 160% */
-margin: 28px 352px 68px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 28px 352px 68px;
 }
 
-/* complete holiday sale section styles */
+/* completed holiday sale section */
 
-/* here is shopping description section styles */
+/* here is shopping description section */
 
-.shopping-container{
+.shopping-container {
   margin-left: 140px;
   margin-top: 120px;
-
 }
-.shopping-intro{
+.shopping-intro {
   color: var(--primary-red-color);
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.shopping-title{
+.shopping-title {
   color: var(--primary-black-color);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
 }
 
-.shopping-description{
+.shopping-description {
   color: var(--secondary-black-color);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
-    margin: 20px 500px 50px 0px;
-
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 20px 500px 50px 0px;
 }
 
 /* finished shopping description section */
 
-/* here is shopping portfolio section styles */
+/* here is shopping portfolio section */
 
-.portfolio-container{
+.portfolio-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin: 0px 123px 120px;
 }
-
-.portfolio-row{
+.portfolio-container img:hover {
+  transform: scale(1.05);
+}
+.portfolio-row {
   display: flex;
   gap: 24px;
 }
 
-/* finished shopping Portfolio section styles */
+/* finished shopping Portfolio section */
 
-/* here is subscribe section styles */
+/* here is subscribe section */
 
-.subscribe-container{
+.subscribe-container {
   background-color: rgba(255, 0, 0, 0.05);
   margin: 0px 120px 120px;
   border-radius: 15px;
@@ -376,37 +375,34 @@ line-height: 32px; /* 160% */
   align-items: center;
 }
 
-.mail{
+.mail {
   margin-top: 80px;
-margin-bottom: 40px;
+  margin-bottom: 40px;
 }
-.subscribe-title{
+.subscribe-title {
   color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin-bottom: 20px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 20px;
 }
-.subscribe-description{
-  color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
-margin:0px 200px 48px;
-
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0px 200px 48px;
 }
-.subscribe-option{
+.subscribe-option {
   margin-bottom: 80px;
   display: flex;
-  
 }
 
-
-#mail-us{
+#mail-us {
   background-color: var(--primary-white-color);
   border: none;
   padding-left: 30px;
@@ -414,14 +410,87 @@ margin:0px 200px 48px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-.subscribe-button{
-background-color: var(--primary-red-color);
-padding: 24px 70px;
-border: none;
-color: var(--primary-white-color);
-border-top-right-radius: 30px;
-border-bottom-right-radius: 30px;
-
+#mail-us:focus {
+  cursor: pointer;
+}
+.subscribe-button {
+  background-color: var(--primary-red-color);
+  padding: 24px 70px;
+  border: none;
+  color: var(--primary-white-color);
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
-/* finished subscribe section styles */
+/* finished subscribe section */
+
+/* completed main section */
+
+/* here is footer section! */
+footer {
+  background-color: var(--primary-black-color);
+  width: 100%;
+}
+/* here is contact info section */
+
+.contact-section-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  border-bottom: 2px solid rgb(128 128 128 / 64%);
+  margin: 0px 160px;
+  padding-bottom: 60px;
+}
+
+.address-item {
+  color: var(--primary-white-color);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.icon {
+  position: relative;
+  right: 10px;
+  top: 5px;
+}
+
+/* finished contact info section */
+
+/* here is social media section */
+
+.social-media-container {
+  text-align: center;
+  padding: 80px;
+}
+
+.social-link {
+  width: 45px;
+  margin: 0px 24px;
+}
+
+/* finished social media section */
+
+/* here is copyright section */
+
+.copyright-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+  border-top: 2px solid rgb(128 128 128 / 64%);
+  margin: 0px 160px;
+  padding-top: 60px;
+}
+.copyright {
+  color: var(--secondary-white-color);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* finished copyright section */
+
+/* finished footer section */

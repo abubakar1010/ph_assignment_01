@@ -18,16 +18,18 @@
 
 /* here is common shared styles */
 
-/* here is header sections styles */
+/* here is header sections styles !*/
 
 header {
   max-width: 1350px;
   height: 600px;
   margin: 50px auto 160px;
-  background-image: url('../assets/banner-image.png');
+  background-image: url("../assets/banner-image.png");
   background-size: cover;
   border-radius: 16px;
 }
+
+/* here is banner section styles */
 
 .banner-title {
   color: var(--primary-white-color);
@@ -55,9 +57,13 @@ header {
   border-radius: 16px;
 }
 
-/* complete header section styles */
+/* finished banner section */
 
-/* here is main section styles */
+/* complete header section styles! */
+
+/* here is main section styles! */
+
+/* here is discount section styles */
 
 .discount-section-container {
   display: flex;
@@ -101,7 +107,7 @@ header {
 .welcome-section {
   max-width: 1350px;
   height: 600px;
-  background-image: url('../assets/vector.png');
+  background-image: url("../assets/vector.png");
   margin: 120px auto;
   background-size: cover;
   border-radius: 16px;
@@ -110,7 +116,7 @@ header {
   max-width: 1350px;
   height: 600px;
   margin: 120px auto;
-  background: linear-gradient(to left, #ede1e130, #000000f7);
+  background: linear-gradient(to right, #070211, #07021100);
   border-radius: 16px;
 }
 
@@ -119,39 +125,85 @@ header {
   font-family: "Merriweather", serif;
   font-size: 64px;
   font-weight: 900;
-  line-height: 88px; 
+  line-height: 88px;
   letter-spacing: 7.04px;
   padding: 126px 460px 0px 126px;
 }
 
-.welcome-section-description{
-    color: var(--secondary-white-color);
-    font-family: "Inter", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; 
-padding: 24px 460px 0px 126px;
+.welcome-section-description {
+  color: var(--secondary-white-color);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 460px 0px 126px;
 }
-.welcome-section-button{
-    color: var(--primary-white-color);
-text-align: center;
-font-family: "Inter", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-border: 0;
-background: none;
-padding: 50px 400px 0px 126px;
+.welcome-section-button {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+  background: none;
+  padding: 50px 400px 0px 126px;
+  position: relative;
+  bottom: 330px;
 }
 
-.welcome-section-image{
-    position: relative;
-    width: 280px;
-    bottom: 275px;
-    left: 275px;
+.welcome-section-image {
+  position: relative;
+  width: 280px;
+  bottom: 270px;
+  left: 345px;
 }
 
 /* finished welcome section styles */
+
+/* here is place info section style */
+
+
+.place-container {
+  max-width: 1300px;
+  height: 450px;
+  background: linear-gradient(to bottom, #ff00001f, #ff000000);
+  border-radius: 16px;
+  margin: 0px auto 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-info {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  /* text-align: center; */
+}
+
+.place-title {
+  color: var(--primary-red-color);
+}
+
+.place-info-button{
+  color: var(--primary-white-color);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+text-transform: uppercase;
+padding: 16px 32px;
+border: none;
+background-color: var(--primary-red-color);
+border-radius: 8px;
+margin-top: 48px;
+}
+
+/* finished place info section */

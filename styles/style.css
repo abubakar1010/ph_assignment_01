@@ -274,3 +274,41 @@ line-height: 32px; /* 160% */
 }
 
 /* finished offer section  */
+
+/* here is holiday sale section styles */
+
+.holiday-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holiday-section-intro{
+  color: var(--primary-black-color);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.holiday-section-title{
+  color: var(--primary-black-color);
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+}
+
+.uncommon-title{
+  color: var(--primary-red-color);
+}
+
+.holiday-section-description{
+  color: var(--secondary-black-color);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; /* 160% */
+margin: 28px 352px 68px;
+}
+
+/* complete holiday sale section styles */

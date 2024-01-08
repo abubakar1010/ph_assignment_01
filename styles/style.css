@@ -348,3 +348,19 @@ line-height: 32px; /* 160% */
 }
 
 /* finished shopping description section */
+
+/* here is shopping portfolio section styles */
+
+.portfolio-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0px 123px 120px;
+}
+
+.portfolio-row{
+  display: flex;
+  gap: 24px;
+}
+
+/* finished shopping Portfolio section styles */

@@ -412,6 +412,10 @@ header {
 }
 #mail-us:focus {
   cursor: pointer;
+  outline: 0;
+  border: 1px solid rgba(255, 0, 0, 0.175);
+  transform: scale(1.04);
+
 }
 .subscribe-button {
   background-color: var(--primary-red-color);
@@ -491,6 +495,10 @@ footer {
   font-weight: 500;
 }
 
+.copyright-container button{
+  background: none;
+  border: 0;
+}
 /* finished copyright section */
 
 /* finished footer section */
